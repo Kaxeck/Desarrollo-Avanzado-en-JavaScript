@@ -1,0 +1,44 @@
+[
+  {
+    "nombre": "Titan",
+    "descripcion": "La luna más grande de Saturno, con lagos de metano.",
+    "descubiertoEn": "1655",
+    "nasaId": "PIA16177"
+  },
+  {
+    "nombre": "Proxima Centauri b",
+    "descripcion": "Un exoplaneta rocoso en la zona habitable de su estrella.",
+    "descubiertoEn": "2016",
+    "nasaId": "GSFC_20171208_Archive_e000214"
+  },
+  {
+    "nombre": "Kepler-22b",
+    "descripcion": "Un exoplaneta que podría tener océanos de agua líquida.",
+    "descubiertoEn": "2011",
+    "nasaId": "PIA14882"
+  },
+  {
+    "nombre": "Venus",
+    "descripcion": "El segundo planeta del sistema solar, con atmósfera muy densa.",
+    "descubiertoEn": "N/A",
+    "nasaId": "PIA00110"
+  },
+  {
+    "nombre": "Jupiter",
+    "descripcion": "El planeta más grande del sistema solar, con una gran mancha roja.",
+    "descubiertoEn": "N/A",
+    "nasaId": "PIA25726"
+  },
+  {
+    "nombre": "Earth",
+    "descripcion": "Nuestro hogar, el único planeta conocido que alberga vida.",
+    "descubiertoEn": "N/A",
+    "nasaId": "GSFC_20171208_Archive_e001386"
+  },
+  {
+    "nombre": "Mars",
+    "descripcion": "El planeta rojo, con evidencia de agua en su pasado.",
+    "descubiertoEn": "N/A",
+    "nasaId": "S91-32389"
+  }
+]

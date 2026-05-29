@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adivina el número</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <h1>Adivina el número</h1>
+    <h2>Selecciona la dificultad</h2>
+    <form id="dificultad-form">
+      <div class="dificultad-option">
+        <label for="facil">Fácil (Rango: 1-100, Intentos: 10)</label>
+        <input type="radio" id="facil" name="dificultad" value="facil" checked>
+      </div>
+      <div class="dificultad-option">
+        <label for="medio">Medio (Rango: 1-1000, Intentos: 20)</label>
+        <input type="radio" id="medio" name="dificultad" value="medio">
+      </div>
+      <div class="dificultad-option">
+        <label for="dificil">Difícil (Rango: 1-10000, Intentos: 30)</label>
+        <input type="radio" id="dificil" name="dificultad" value="dificil">
+      </div>
+    </form>
+    <p id="mensaje-inicial">La computadora ha generado un número según la dificultad seleccionada.</p>
+    <div class="dificultad-controls">
+      <button type="button" id="confirmar-dificultad">Confirmar dificultad</button>
+      <button type="button" id="reiniciar" style="display:none; margin-left:8px;">Reiniciar</button>
+    </div>
+    <p>La computadora ha generado un número según la dificultad seleccionada. ¡Adivínalo!</p>
+    <input type="number" id="numero">
+    <button id="adivinar">Adivinar</button>
+    <p id="mensaje"></p>
+    <script type="module" src="/main.js"></script>
+</body>
+</html>
